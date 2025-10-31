@@ -6,7 +6,7 @@ A glowing, animated Nixie tube clock built with HTML, CSS, and JavaScript. Inspi
 Coming soon via GitHub Pages...
 
 ## 📦 Repository
-[GitHub Repo](https://github.com/bati58/SteamPunkNixieTubeClock)
+[GitHub Repo](https://github.com/bati58/TubeClock)
 
 ## ✨ Features
 - Glowing segmented digits with warm-up and flicker animations
@@ -23,5 +23,5 @@ Coming soon via GitHub Pages...
 ## 🚀 Setup
 Clone the repo and open `index.html` in your browser:
 ```bash
-git clone https://github.com/bati58/SteamPunkNixieTubeClock.git
-cd SteamPunkNixieTubeClock
+git clone https://github.com/bati58/TubeClock.git
+cd TubeClock
