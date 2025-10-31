@@ -1,6 +1,6 @@
-# 🕰️ SteamPunk Nixie Tube Clock
+# 🕰️ Tube Clock
 
-A glowing, animated Nixie tube clock built with HTML, CSS, and JavaScript. Inspired by steampunk aesthetics and retro-futuristic design, this project features segmented digits, flicker effects, and dynamic temperature display.
+A glowing, animated Nixie tube clock built with HTML, CSS, and JavaScript.this project features segmented digits, flicker effects, and dynamic temperature display.
 
 ## 🔥 Live Demo
 Coming soon via GitHub Pages...
@@ -13,7 +13,7 @@ Coming soon via GitHub Pages...
 - Dynamic time display (HH:MM:SS + AM/PM)
 - Real-time temperature in °C and °F (simulated)
 - Honeycomb background texture
-- Steampunk-inspired metal supports, arched top, and glowing base
+- metal supports, arched top, and glowing base
 
 ## 🛠️ Technologies Used
 - HTML5
