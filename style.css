@@ -1,0 +1,132 @@
+:root {
+  --glow: #ff4500;
+  --metal: #ff9900;
+  --tube-bg: radial-gradient(circle, #111 0%, #000 100%);
+}
+
+body {
+  margin: 0;
+  /*background: var(--tube-bg);*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background: radial-gradient(circle at center, #2b1f08 0%, #331a00 60%, #000 100%);
+  box-shadow: inset 0 0 200px #1b1101;
+}
+
+.clock-structure {
+  position: relative;
+  width: 220px;
+  height: 540px;
+}
+
+.tube {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 420px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 80px;
+  box-shadow: 0 0 60px var(--glow);
+  border: 4px solid var(--metal);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.honeycomb {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(#222 1px, transparent 1px);
+  background-size: 12px 12px;
+  opacity: 0.2;
+  z-index: 0;
+}
+
+.digits {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.digit {
+  font-family: 'Courier New', monospace;
+  font-size: 2.8em;
+  color: var(--glow);
+  text-shadow: 0 0 10px var(--glow), 0 0 20px var(--glow);
+  text-align: center;
+}
+.unit-label {
+  font-size: 0.8em;
+  color: var(--glow);
+  text-shadow: 0 0 6px var(--glow);
+  margin-bottom: 0.5em;
+}
+
+
+.support {
+  position: absolute;
+  width: 12px;
+  height: 420px;
+  background: var(--metal);
+  border-radius: 6px;
+  top: 50px;
+}
+
+.support.left { left: 20px; }
+.support.right { right: 20px; }
+
+.arch-top {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  height: 50px;
+  border-top: 4px solid var(--metal);
+  border-radius: 50% / 100%;
+}
+
+.finial {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
+  background: var(--metal);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--metal);
+}
+
+.base {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 220px;
+  height: 50px;
+  background: #111;
+  border-radius: 25px;
+  box-shadow: 0 0 40px var(--glow);
+}
+
+.base-light {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 18px;
+  background: var(--glow);
+  border-radius: 50%;
+  box-shadow: 0 0 30px var(--glow);
+}
